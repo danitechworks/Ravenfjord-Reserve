@@ -21,7 +21,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .hero-h1 {
@@ -43,4 +43,38 @@
   color: #343637;
   letter-spacing: 1px;
   text-align: center;
+}
+
+.hero-btn {
+  background-color: #343637;
+  color: #ccd5d9;
+  border: 1px solid #78746e;
+
+  align-self: center;
+  padding: 10px 34px;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+
+  border: none;
+  outline: none;
+  border-radius: 999px;
+
+  cursor: pointer;
+  margin-top: 16px;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+.hero-btn:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.hero-btn:active {
+  color: #bb884b;
 }
