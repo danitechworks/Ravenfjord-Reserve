@@ -5,13 +5,13 @@
   letter-spacing: 2px;
   line-height: 1.1;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 45px;
 }
 
 .animals-h3 {
   font-family: "Lato", sans-serif;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   color: #343637;
   letter-spacing: 1px;
   text-align: center;
@@ -19,7 +19,7 @@
 
 .animals-p {
   font-family: "Lato", sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #343637;
   letter-spacing: 1px;
   padding: 5px 10px 5px 10px;
@@ -27,9 +27,12 @@
 
 .animals-grid {
   display: grid;
-  grid-template-columns: repeat(3, 220px);
-  gap: 90px;
+  grid-template-columns: repeat(auto-fill, 220px);
+  gap: 30px;
   justify-content: center;
+
+  max-width: calc(4 * 220px + 3 * 30px);
+  margin: 0 auto;
 }
 
 .animal-card {
