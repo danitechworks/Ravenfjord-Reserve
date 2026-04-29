@@ -29,7 +29,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 220px);
   gap: 30px;
-  justify-content: center;
 
   max-width: calc(4 * 220px + 3 * 30px);
   margin: 0 auto;
@@ -40,8 +39,13 @@
   border-radius: 15px;
   overflow: hidden;
   background: #dddddf;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
-  transition: transform 0.2s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(52, 54, 55, 0.2);
+}
+
+.animal-card:hover {
+  transform: translateY(-4px);
+  transition: 0.2s ease;
 }
 
 .animal-card img {

@@ -1,0 +1,24 @@
+.todo-h2 {
+  font-family: "MedievalSharp", serif;
+  font-size: 3.5rem;
+  color: #343637;
+  letter-spacing: 2px;
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 45px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+
+  max-width: 650px;
+  text-align: center;
+
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  color: #343637;
+  line-height: 2.2;
+}
