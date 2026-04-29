@@ -34,3 +34,7 @@
   font-family: "Lato", sans-serif;
   transition: color 0.2s ease;
 }
+
+.nav-links a:hover {
+  color: #bb884b;
+}
