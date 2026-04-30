@@ -44,4 +44,5 @@ Ravenfjord Reserve is a fictional world inspired by Norse mythology and Scandina
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+https://github.com/danitechworks/Ravenfjord-Reserve.git
+```
