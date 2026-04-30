@@ -7,9 +7,7 @@ A fantasy-inspired web project about a hidden mythical nature reserve in the nor
 ## 🌐 Live Website
 
 👉 Visit the project here:  
-https://your-username.github.io/your-repo-name/
-
-*(Replace this with your actual GitHub Pages link once published)*
+(https://github.com/danitechworks/Ravenfjord-Reserve)
 
 ---
 
