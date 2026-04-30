@@ -11,6 +11,8 @@
   flex-direction: column;
   align-items: center;
   gap: 15px;
+  max-width: 970px;
+  margin: 0 auto;
 }
 
 .newsletter-form input {
