@@ -34,6 +34,9 @@
     2px 2px 0 #000,
     4px 4px 8px rgba(0, 0, 0, 0.5);
   text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .hero-p {
@@ -91,4 +94,20 @@
   );
 
   pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .hero-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .hero-h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-p {
+    font-size: 1.2rem;
+  }
 }
