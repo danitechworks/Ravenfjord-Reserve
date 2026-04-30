@@ -4,16 +4,6 @@
   align-items: center;
 }
 
-.map-h2 {
-  font-family: "MedievalSharp", serif;
-  font-size: 3.5rem;
-  color: #343637;
-  letter-spacing: 2px;
-  line-height: 1.1;
-  text-align: center;
-  margin: 20px auto;
-}
-
 .map-layout {
   display: grid;
   grid-template-columns: 2fr 1fr;

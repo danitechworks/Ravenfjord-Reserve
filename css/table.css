@@ -3,17 +3,6 @@
   justify-content: center;
 }
 
-.table-h2 {
-  font-family: "MedievalSharp", serif;
-  font-size: 3.5rem;
-  color: #343637;
-  letter-spacing: 2px;
-  line-height: 1.1;
-  text-align: center;
-  margin-top: 60px;
-  margin-bottom: 45px;
-}
-
 table img {
   width: 80px;
   height: 80px;

@@ -19,6 +19,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.section-h2 {
+  font-family: "MedievalSharp", serif;
+  font-size: 3.5rem;
+  color: #343637;
+  letter-spacing: 2px;
+  line-height: 1.1;
+  text-align: center;
+  margin: 60px auto 45px;
+}
+
 @media (max-width: 768px) {
   h2 {
     font-family: "Cinzel", serif;
