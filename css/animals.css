@@ -29,7 +29,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 220px);
   gap: 30px;
-
   max-width: calc(4 * 220px + 3 * 30px);
   margin: 0 auto;
 }
@@ -69,8 +68,8 @@
   border-radius: 15px;
   background: radial-gradient(
     circle at center,
-    transparent 70%,
-    rgba(221, 221, 223, 0.6) 95%
+    transparent 50%,
+    rgba(221, 221, 223, 0.6) 94%
   );
   pointer-events: none;
 }
