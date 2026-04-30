@@ -38,3 +38,18 @@
 .nav-links a:hover {
   color: #bb884b;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .nav-links {
+    gap: 10px;
+    font-size: 0.85rem;
+  }
+}
