@@ -1,0 +1,49 @@
+.newsletter-h2 {
+  font-family: "MedievalSharp", serif;
+  font-size: 3.5rem;
+  color: #343637;
+  letter-spacing: 2px;
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 45px;
+}
+
+.newsletter-p {
+  font-family: "Lato", sans-serif;
+  color: #343637;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.newsletter-form input {
+  padding: 12px 20px;
+  border-radius: 999px;
+  border: 1px solid #78746e;
+  font-family: "Lato", sans-serif;
+  width: 250px;
+}
+
+.newsletter-form button {
+  padding: 12px 25px;
+  border-radius: 999px;
+  border: none;
+  background: #343637;
+  color: #ccd5d9;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  transition: 0.2s ease;
+}
+
+.newsletter-form button:hover {
+  color: #bb884b;
+  transform: translateY(-2px);
+}

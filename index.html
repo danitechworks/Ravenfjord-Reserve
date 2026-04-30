@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/table.css" />
     <link rel="stylesheet" href="css/todo.css" />
     <link rel="stylesheet" href="css/map.css" />
+    <link rel="stylesheet" href="css/newsletter.css" />
 
     <title>Ravenfjord Reserve</title>
 
@@ -376,26 +377,34 @@
         </p>
       </div>
     </section>
-    <!-- <div class="map-div">
-      <iframe
-        src="https://www.google.com/maps?q=59.8586,17.6389&z=10&output=embed"
-        width="600"
-        height="450"
-        style="border: 0"
-        loading="lazy"
-      >
-      </iframe>
-    </div>
-    <p class="map-text">
-      Located just beyond Uppsala's quiet forests, Ravenfjord Reserve is said to
-      exist where ancient legends still echo through the trees. You can find us
-      near Uppsala… or at least that's what the maps say. The ravens know the
-      truth.
-    </p> -->
     <!-- Map-->
 
     <!-- newsletter section -->
     <section class="newsletter" id="newsletter"></section>
+    <h2 class="newsletter-h2">Join the Ravenfjord Watch</h2>
+    <p class="newsletter-p">
+      Receive rare sightings, creature updates, and travel warnings from the
+      northern realm.
+    </p>
+
+    <form
+      class="newsletter-form"
+      action="https://formshow.systementor.se/"
+      method="POST"
+    >
+      <input type="text" placeholder="First Name" required />
+      <input type="text" placeholder="Last Name" required />
+      <input
+        type="number"
+        placeholder="Age"
+        name="age"
+        min="18"
+        max="100"
+        required
+      />
+      <input type="email" placeholder="Email" required />
+      <button type="submit">Subscribe</button>
+    </form>
     <!-- newsletter section -->
 
     <!-- footer section -->
