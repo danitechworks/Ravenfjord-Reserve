@@ -21,6 +21,8 @@
   max-width: calc(4 * 220px + 3 * 30px);
   margin: 0 auto;
   justify-content: center;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 .animal-card {
