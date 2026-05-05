@@ -1,9 +1,8 @@
 .todo-list {
   list-style: none;
-  padding-bottom: 8px;
-  margin: 0 auto;
+  padding: 0;
+  margin: auto;
   max-width: 970px;
-  text-align: left;
   font-family: "Lato", sans-serif;
   font-size: 1.1rem;
   color: #343637;
@@ -16,4 +15,10 @@
   color: #343637;
   line-height: 2.2;
   font-weight: 700;
+}
+
+.todo-list li {
+  width: 85%;
+  margin: auto;
+  padding: 15px;
 }
