@@ -41,6 +41,12 @@
   color: #bb884b;
 }
 
+.nav-links a:focus {
+  color: #bb884b;
+  outline: 2px solid #bb884b;
+  outline-offset: 2px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     padding: 10px 20px;
