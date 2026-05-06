@@ -13,8 +13,8 @@
   height: 60vh;
 
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 40px;
+  right: 40px;
 
   backdrop-filter: blur(4px);
   border-radius: clamp(20px, 10vw, 80px);
@@ -102,8 +102,13 @@
 
 @media (max-width: 768px) {
   .hero-div {
+    position: static;
     width: 100%;
+
+    margin: 0 auto;
+    margin-top: 40px;
     height: auto;
+    justify-content: center;
     padding: 20px 15px;
     border-radius: 40px;
   }
