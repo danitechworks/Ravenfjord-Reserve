@@ -46,9 +46,10 @@
 .hero-p {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
-  color: #bb884b;
+  color: black;
   letter-spacing: 1px;
   text-align: center;
+  font-weight: 700;
 }
 
 .hero-btn {
@@ -91,11 +92,11 @@
   left: 0;
   right: 0;
   height: 30%;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     transparent 0%,
     rgba(255, 255, 255, 0.8) 100%
-  );
+  ); */
 
   pointer-events: none;
 }
