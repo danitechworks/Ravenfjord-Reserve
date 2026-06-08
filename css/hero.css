@@ -92,11 +92,11 @@
   left: 0;
   right: 0;
   height: 30%;
-  /* background: linear-gradient(
+  background: linear-gradient(
     to bottom,
     transparent 0%,
     rgba(255, 255, 255, 0.8) 100%
-  ); */
+  );
 
   pointer-events: none;
 }
